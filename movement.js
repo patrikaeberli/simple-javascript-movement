@@ -35,7 +35,7 @@ function moveUp() {
 }
 
 function moveRight() {
-    if (xPos < 980) {
+    if (xPos < 480) {
         xPos += 10;
         document.getElementById("sprite").style.left = xPos + 'px';
         update();
@@ -43,7 +43,7 @@ function moveRight() {
 }
 
 function moveDown() {
-    if (yPos < 780) {
+    if (yPos < 480) {
         yPos += 10;
         document.getElementById("sprite").style.top = yPos + 'px';
         update();
