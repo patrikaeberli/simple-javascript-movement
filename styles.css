@@ -1,0 +1,21 @@
+body {
+    background-color: #bcbcbca6;
+}
+
+#screen {
+    position: relative;
+    border: 2px solid #FFFFFF;
+    margin: auto;
+    background-color: #9bbe0f;
+    width: 500px;
+    height: 500px;
+}
+
+#sprite {
+    position: absolute;
+    background-color: #000000;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
